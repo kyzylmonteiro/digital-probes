@@ -1,26 +1,31 @@
 import React from 'react';
-import logo from './logo.svg';
+// import ReactDOM from 'react-dom';
 import './App.css';
+import FlipCard from './FlipCard';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+
+let data = require("./data.json");
+class App extends React.Component {
+
+
+  generateCardsList(cards) {
+    const cardsList = cards.map(card => (    
+        <FlipCard image={card.image} heading={card.heading} text={card.text} />   
+      ));
+    return <>{cardsList}</>;
+  }
+  render(){return (
+      <div>
+        <center><h1 style={{color: "blue;"}}>{data.header}</h1>
+        <h5>{data.subheader}</h5>
+        </center>
+        <div class="cardContainer">
+          <FlipCard image="img_avatar.png" heading="UI" text="some sameple text"/>
+          {this.generateCardsList(data.cards)}      
+        </div>
+      </div>
+  );}
 }
 
 export default App;
