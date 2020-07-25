@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/digital-probes/static/css/main.23568c4c.chunk.css",
+    "main.js": "/digital-probes/static/js/main.b97d91ba.chunk.js",
+    "main.js.map": "/digital-probes/static/js/main.b97d91ba.chunk.js.map",
+    "runtime-main.js": "/digital-probes/static/js/runtime-main.68e15d74.js",
+    "runtime-main.js.map": "/digital-probes/static/js/runtime-main.68e15d74.js.map",
+    "static/js/2.1a8a0259.chunk.js": "/digital-probes/static/js/2.1a8a0259.chunk.js",
+    "static/js/2.1a8a0259.chunk.js.map": "/digital-probes/static/js/2.1a8a0259.chunk.js.map",
+    "index.html": "/digital-probes/index.html",
+    "precache-manifest.8849a0fc32d10855e537fa25d38ed0d9.js": "/digital-probes/precache-manifest.8849a0fc32d10855e537fa25d38ed0d9.js",
+    "service-worker.js": "/digital-probes/service-worker.js",
+    "static/css/main.23568c4c.chunk.css.map": "/digital-probes/static/css/main.23568c4c.chunk.css.map",
+    "static/js/2.1a8a0259.chunk.js.LICENSE.txt": "/digital-probes/static/js/2.1a8a0259.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.68e15d74.js",
+    "static/js/2.1a8a0259.chunk.js",
+    "static/css/main.23568c4c.chunk.css",
+    "static/js/main.b97d91ba.chunk.js"
+  ]
+}
